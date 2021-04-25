@@ -1,4 +1,31 @@
 ---
-layout: home
+layout: splash
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/background.jpg
+  actions:
+    - label: "Resume"
+      url: "assets/files/resume.pdf"
+excerpt: "NTU CSIE B07 - Blogs, Courses, Projects"
+intro: 
+  - excerpt: 'I am a third year student at the National Taiwan University (NTU), majoring in Computer Science and Double majoring in Biological Science. I aim to enrich my college experience through involving myself in a variety of academic, social and sporting events, and evolve into a better, more mature person through it. Hopefully, I can one day install meaningful change to Taiwan and the world through my contributions to the informational world.'
+feature_row:
+  - alt: "Projects"
+    title: "Projects"
+    excerpt: "Here is the link to my github page, where all of my projects can be found."
+    url: "https://github.com/ycheng627/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - alt: "Blog"
+    title: "Blog"
+    excerpt: "This is my personal blog that I occassionally udpate"
+    url: "/blog"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
